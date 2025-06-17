@@ -1,0 +1,90 @@
+# Introduction to Linux
+
+Welcome to the **Introduction to Linux** repository! This guide provides an overview of Linux, its architecture, essential commands, and how to get started with using Linux for development, system administration, and general computing.
+
+---
+
+## 📌 Table of Contents
+
+- [What is Linux?](#what-is-linux)
+- [Why Use Linux?](#why-use-linux)
+- [Linux Distributions](#linux-distributions)
+- [Basic Linux Commands](#basic-linux-commands)
+- [File System Structure](#file-system-structure)
+- [Package Management](#package-management)
+- [Permissions & Users](#permissions--users)
+- [Useful Resources](#useful-resources)
+- [License](#license)
+
+---
+
+## 🐧 What is Linux?
+
+Linux is a free and open-source operating system based on Unix. It is widely used for servers, desktops, mobile devices, and embedded systems. Linux is known for its security, stability, and flexibility.
+
+---
+
+## 💡 Why Use Linux?
+
+- Free and open-source
+- Highly customizable
+- Excellent for programming and development
+- Strong community support
+- Preferred OS for servers and cloud computing
+- Secure and efficient
+
+---
+
+## 📦 Linux Distributions
+
+Some popular Linux distributions include:
+
+- **Ubuntu** – User-friendly and widely used
+- **Debian** – Stable and versatile
+- **Fedora** – Cutting-edge features
+- **Arch Linux** – Lightweight and flexible
+- **Kali Linux** – Security and penetration testing
+- **CentOS / RHEL** – Enterprise use
+
+---
+
+## 🧾 Basic Linux Commands
+
+| Command        | Description                         |
+|----------------|-------------------------------------|
+| `ls`           | List directory contents             |
+| `cd`           | Change directory                    |
+| `pwd`          | Print current working directory     |
+| `mkdir`        | Create a new directory              |
+| `touch`        | Create a new file                   |
+| `cp`           | Copy files and directories          |
+| `mv`           | Move or rename files                |
+| `rm`           | Remove files or directories         |
+| `cat`          | Display file contents               |
+| `man`          | Display manual/help for a command   |
+
+---
+
+## 🗂️ File System Structure
+
+Common Linux directories:
+
+- `/` – Root directory
+- `/home` – User home directories
+- `/etc` – Configuration files
+- `/bin` – Essential binaries
+- `/var` – Variable files (logs, cache)
+- `/usr` – User applications and files
+
+---
+
+## 📦 Package Management
+
+- **Debian/Ubuntu:** `apt`, `dpkg`
+- **Fedora/RedHat:** `dnf`, `yum`, `rpm`
+- **Arch Linux:** `pacman`
+
+Example:
+```bash
+sudo apt update
+sudo apt install <package-name>
